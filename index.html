@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, height=device-height,user-scalable=no" />
+    <title>SUP drive</title>
+    <link rel="stylesheet" href="/style/null.css" />
+    <link rel="stylesheet" href="/style/style.css" />
+    <link rel="stylesheet" href="/style/media.css" />
+  </head>
+  <body id="body">
+    <div class="start-menu__container">
+      <nav class="start-menu">
+        <img class="start-menu__logo" src="img/logo-menu.png" alt="" />
+        <ul class="start-menu__list">
+          <li>Welcome</li>
+          <li>to</li>
+          <li>SUP drive</li>
+          <li><a class="start-menu__link" onclick="drawCanvas()">Start</a></li>
+        </ul>
+      </nav>
+      <div class="creater">Wilma#2754</div>
+    </div>
+    <div class="canvas__container">
+      <canvas id="myCanvas" width="1200" height="320"></canvas>
+      <div class="canvas__footer">
+        <p class="canvas__record">Record: <span id="record">0</span></p>
+        <button id="btnPause" class="btnPause">Pause</button>
+      </div>
+      <div class="btn__control">
+        <button id="btnLeft" class="btnLeft btn">&#9668;</button>
+        <button id="btnRight" class="btnRight btn">&#9658;</button>
+      </div>
+      <img id="ball" style="display: none" src="/img/sup.jpg" />
+    </div>
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+    <script src="/js/script.js"></script>
+  </body>
+</html>
