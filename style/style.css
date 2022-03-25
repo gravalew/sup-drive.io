@@ -113,7 +113,7 @@ button {
   display: flex;
   height: 80vh;
   width: 100vw;
-  background: #000000 url('img/background-canvas.jpg') 0 0 / cover no-repeat;
+  background: url('img/background-canvas.jpg') 0 0 / cover no-repeat #000000;
 }
 .btn__control {
   display: flex;
