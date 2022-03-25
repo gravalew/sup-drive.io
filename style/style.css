@@ -24,7 +24,7 @@ button {
   display: flex;
   height: 100vh;
   width: 100vw;
-  background: url ('img/background-menu.png') 0 0 / contain repeat #82e1de;
+  background: url ('../img/background-menu.png') 0 0 / contain repeat #82e1de;
   flex-direction: column;
   justify-content: center;
 }
@@ -113,7 +113,7 @@ button {
   display: flex;
   height: 80vh;
   width: 100vw;
-  background: url ('img/background-canvas.jpg') 0 0 / cover no-repeat #82e1de;
+  background: url ('../img/background-canvas.jpg') 0 0 / cover no-repeat #82e1de;
 }
 .btn__control {
   display: flex;
